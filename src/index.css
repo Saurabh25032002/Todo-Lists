@@ -1,0 +1,102 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.inputTask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputTask input {
+  width: 70%;
+  padding: 12px;
+  border: 2px solid #d1d1d1;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.inputTask input:focus {
+  border-color: #4caf50; /* Green border when input is focused */
+}
+
+.inputTask button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.inputTask button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.clearButton {
+  padding: 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.clearButton:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.taskData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.taskData:hover {
+  background-color: #f0f0f0; /* Light grey background on hover */
+}
+
+.taskData p {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+#deleteIcon {
+  color: #e74c3c;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#deleteIcon:hover {
+  color: #c0392b; /* Darker red on hover */
+}
+
+.errorText {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 5px;
+}
